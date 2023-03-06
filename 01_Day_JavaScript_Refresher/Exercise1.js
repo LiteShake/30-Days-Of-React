@@ -120,6 +120,29 @@ index != -1
   : console.log( "Company does not exist in array" )
 
 // 14
+
+moreOCompanies = Array()
+
+for( i = 0 ; i < itCompanies.length ; i++ ) {
+
+  numOs = 0
+
+  for( j = 0 ; j < itCompanies[i].length ; j++ ) {
+
+    if( itCompanies[i][j] == "o"
+    || itCompanies[i][j] == "O" ) {
+
+      numOs++
+    }
+  }
+
+  if( numOs > 1 ) { moreOCompanies.push( itCompanies[i] ) }
+
+  numOs = 0
+}
+
+console.log( moreOCompanies )
+
 // 15
 // 16
 // 17
