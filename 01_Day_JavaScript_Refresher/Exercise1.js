@@ -144,11 +144,43 @@ for( i = 0 ; i < itCompanies.length ; i++ ) {
 console.log( moreOCompanies )
 
 // 15
+
+console.log( itCompanies.sort() )
+
 // 16
+
+console.log( itCompanies.reverse() )
+
 // 17
+
+console.log( itCompanies.slice(3,) )
+
 // 18
+
+console.log( itCompanies.slice( 0,-3 ) )
+
 // 19
+console.log( itCompanies.slice(0, itCompanies.length/2 - 1) + "," + itCompanies.slice( itCompanies.length/2 + 1, itCompanies.length ) )
+
 // 20
+
+itCompanies.shift()
+console.log( itCompanies )
+
 // 21
+itCompanies.shift( itCompanies.length / 2 )
+console.log( itCompanies )
+
 // 22
+itCompanies.pop()
+console.log( itCompanies )
+
 // 23
+console.log(itCompanies)
+
+while( itCompanies.length != 0 ) {
+
+  itCompanies.pop()
+}
+
+console.log( itCompanies )
